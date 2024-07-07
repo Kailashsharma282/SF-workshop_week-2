@@ -1,0 +1,338 @@
+body {
+    background-image: url("background.png");
+    background-size: cover;
+}
+#id1 {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px peachpuff, -3px -3px 10px peachpuff;
+    text-align: center;
+    
+}
+#id2 {
+    font-size: 50px;
+    color: blanchedalmond;
+    position: absolute;
+    top: -27px;
+    left: 20px;
+}
+#id1:hover {
+    border-radius: 10px;
+    border: 2px solid blanchedalmond;
+    animation: first 1s linear 0s infinite normal;
+}
+@keyframes first {
+    0% {
+        box-shadow: 3px 3px 10px whitesmoke, -8px -3px 10px blanchedalmond;
+    }
+    25% {
+        box-shadow: 3px 3px 10px blanchedalmond, -3px -8px 10px whitesmoke;
+    }
+    50% {
+        box-shadow: 8px 3px 10px blanchedalmond, -3px -3px 10px whitesmoke;
+    }
+    75% {
+        box-shadow: 3px 8px 10px whitesmoke, -3px -3px 10px blanchedalmond;
+    }
+    100% {
+        box-shadow: 3px 3px 10px whitesmoke, -8px -3px 10px blanchedalmond;
+    }
+}
+@keyframes second {
+    0% {
+        box-shadow: 3px 3px 10px green, -6px -3px 10px green;
+    }
+    25% {
+        box-shadow: 3px 3px 10px green, -3px -6px 10px green;
+    }
+    50% {
+        box-shadow: 6px 3px 10px green, -3px -3px 10px green;
+    }
+    75% {
+        box-shadow: 3px 6px 10px green, -3px -3px 10px green;
+    }
+    100% {
+        box-shadow: 3px 3px 10px green, -6px -3px 10px green;
+    }
+}
+#id3 {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 1150px;
+    top: 350px;
+    border-radius: 14px;
+    box-shadow: 6px 6px 10px peachpuff, -6px -6px 10px peachpuff;
+    text-align: center;
+    font-size: 50px;
+    background-color: powderblue;
+    color: blue;
+}
+#id3:hover {
+    border-radius: 14px;
+    border: 2px solid blanchedalmond;
+    animation: first 1s linear 0s infinite normal;
+}
+.class1 {
+    display: none;
+    color: rgb(80, 211, 80);
+    border: 2px solid black;
+    box-shadow: 6px 6px 10px black, -6px -6px 10px black;
+    width: 1000px;
+    height: 470px;
+    position: absolute;
+    left: 250px;
+    top: 130px;
+    font-size: 40px;
+}
+#id9 {
+    display: none;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    left: 600px;
+    top: 630px;
+    border-radius: 14px;
+    box-shadow: 6px 6px 10px peachpuff, -6px -6px 10px peachpuff;
+    text-align: center;
+    font-size: 50px;
+    background-color: powderblue;
+    color: blue;
+}
+#id9:hover {
+    border-radius: 14px;
+    border: 2px solid blanchedalmond;
+    animation: first 1s linear 0s infinite normal;
+}
+#op1 {
+    display: none;
+    width: 1100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    top: 140px;
+    font-size: 45px;
+    color: rgb(80, 211, 80);
+    border: 2px solid blanchedalmond;
+    box-shadow: 6px 6px 10px blanchedalmond, -6px -6px 10px blanchedalmond;
+    background-color: powderblue;
+    color: blue;
+    border-radius: 15px;
+}
+#op2 {
+    display: none;
+    width: 800px;
+    height: 80px;
+    position: absolute;
+    left: 350px;
+    top: 300px;
+    font-size: 30px;
+    color: rgb(80, 211, 80);
+    border: 2px solid blanchedalmond;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px blanchedalmond, -3px -3px 10px blanchedalmond;
+    background-color: powderblue;
+    color: blue;
+}
+#op3 {
+    display: none;
+    width: 800px;
+    height: 80px;
+    position: absolute;
+    left: 350px;
+    top: 400px;
+    font-size: 30px;
+    color: rgb(80, 211, 80);
+    border: 2px solid blanchedalmond;
+    box-shadow: 3px 3px 10px blanchedalmond, -3px -3px 10px blanchedalmond;
+    background-color: powderblue;
+    color: blue;
+    border-radius: 15px;
+}
+#op4 {
+    display: none;
+    width: 800px;
+    height: 80px;
+    position: absolute;
+    left: 350px;
+    top: 500px;
+    font-size: 30px;
+    color: rgb(80, 211, 80);
+    border: 2px solid blanchedalmond;
+    box-shadow: 3px 3px 10px blanchedalmond, -3px -3px 10px blanchedalmond;
+    background-color: powderblue;
+    color: blue;
+    border-radius: 15px;
+}
+#op5 {
+    display: none;
+    width: 800px;
+    height: 80px;
+    position: absolute;
+    left: 350px;
+    top: 600px;
+    font-size: 30px;
+    color: rgb(80, 211, 80);
+    border: 2px solid blanchedalmond;
+    box-shadow: 3px 3px 10px blanchedalmond, -3px -3px 10px blanchedalmond;
+    background-color: powderblue;
+    color: blue;
+    border-radius: 15px;
+}
+#welcome {
+    display: block;
+    width: 470px;
+    height: 70px;
+    position: absolute;
+    left: 550px;
+    top: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px peachpuff, -5px -5px 10px peachpuff;
+    color: rgb(80, 211, 80);
+    font-size: 50px;
+    text-align: center;
+} #welcome:hover {
+    border-radius: 10px;
+    border: 2px solid blanchedalmond;
+    animation: first 1s linear 0s infinite normal;
+}
+#id10 {
+    display: none;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    right: 40px;
+    top: 600px;
+    border-radius: 14px;
+    box-shadow: 6px 6px 10px peachpuff, -6px -6px 10px peachpuff;
+    text-align: center;
+    font-size: 50px;
+    background-color: powderblue;
+    color: blue;
+}
+#id11 {
+    display: none;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    left: 20px;
+    top: 600px;
+    border-radius: 14px;
+    box-shadow: 6px 6px 10px peachpuff, -6px -6px 10px peachpuff;
+    text-align: center;
+    font-size: 50px;
+    background-color: powderblue;
+    color: blue;
+}
+#id10:hover, #id11:hover, #id14:hover, #op1:hover , #op2:hover, #op3:hover, #op4:hover, #op5:hover, #id12:hover{
+    border-radius: 14px;
+    border: 2px solid blanchedalmond;
+    animation: second 1s linear 0s infinite normal;
+}
+#id12 {
+    display: none;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    right: 40px;
+    top: 400px;
+    border-radius: 14px;
+    box-shadow: 6px 6px 10px peachpuff, -6px -6px 10px peachpuff;
+    text-align: center;
+    font-size: 50px;
+    background-color: powderblue;
+    color: blue;
+}
+#id13 {
+    display: none;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    left: 600px;
+    top: 400px;
+    border-radius: 14px;
+    box-shadow: 6px 6px 10px peachpuff, -6px -6px 10px peachpuff;
+    text-align: center;
+    font-size: 50px;
+    background-color: powderblue;
+    color: blue;
+}
+#id14 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 140px;
+    height: 60px;
+    font-size: 50px;
+    color: blue;
+    background-color: powderblue;
+    border-radius: 14px;
+    box-shadow: 6px 6px 10px peachpuff, -6px -6px 10px peachpuff;
+    text-align: center;
+}
+#feedback {
+    display: none;
+    width: 400px;
+    height: 80px;
+    position: absolute;
+    left: 600px;
+    top: 550px;
+    font-size: 40px;
+    border-radius: 14px;
+    box-shadow: 6px 6px 10px peachpuff, -6px -6px 10px peachpuff;
+    color: blue;
+    background-color: powderblue;
+}
+#feedbox {
+    display: none;
+    width: 80vw;
+    height: 40vh;
+    position: absolute;
+    left: 10vw;
+    top: 110vh;
+    font-size: 40px;
+    border-radius: 14px;
+    box-shadow: 6px 6px 10px peachpuff, -6px -6px 10px peachpuff;
+    color: blue;
+    background-color: powderblue;
+}
+@media (max-width: 600px) {
+    body {
+        background-size: auto;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
+    #id1 {
+        position: fixed;
+        width: 120px;
+        height: 60px;
+        left: 250px;
+        top: 20px;
+        font-size: 40px;
+    }
+    #id2 {
+        font-size: 30px;
+        top: -10px;
+    }
+    #welcome {
+        width: 300px;
+        height: 50px;
+        left: 70px;
+        top: 150px;
+        font-size: 30px;
+    }
+    #id3 {
+        width: 180px;
+        height: 60px;
+        left: 250px;
+        top: 450px;
+        font-size: 40px;
+    }
+
+}
